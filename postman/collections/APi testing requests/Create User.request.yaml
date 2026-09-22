@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{baseUrl}}/api/users"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Alex\",\r
+
+    \    \"job\": \"QA Engineer\"\r
+
+    }"
+order: 3564264472149965
